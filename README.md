@@ -45,6 +45,7 @@
 ## How to Use
 
 1. **Run the Application:** Launch the main Python script.
+    * Optionally, download and run portable\QuickLink.exe. No installation required.
 2. **Add a Link:**
     * Click the "Add Link" button.
     * In the opened window, enter the website URL.
