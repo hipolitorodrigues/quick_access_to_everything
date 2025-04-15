@@ -165,7 +165,7 @@ class QuickLink:
             self.load_page(self.current_page_id)
         else:
             # Create first page if not exists
-            self.cursor.execute("INSERT INTO pages (title) VALUES ('quick access - page 1')")
+            self.cursor.execute("INSERT INTO pages (title) VALUES ('Quick Access to Everything')")
             self.conn.commit()
             self.current_page_id = self.cursor.lastrowid
             self.load_page(self.current_page_id)
