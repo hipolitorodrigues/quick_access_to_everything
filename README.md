@@ -47,20 +47,20 @@
 1. **Run the Application:** Launch the main Python script.
     * Optionally, download and run portable\QuickLink.exe. No installation required.
 2. **Add a Link:**
-    * Click the "Add Link" button.
+    * Click the "New Link" button.
     * In the opened window, enter the website URL.
     * Optionally, click the button to choose an image from your computer to associate with the link.
     * Click "Save" (or similar) to add the link to the current page grid.
-3. **Access a Link:** Click on the image of the desired link in the grid. The associated URL will open in your default browser.
+3. **Access a Link:** Click on the title or on the image of the desired link in the grid. The associated URL will open in your default browser.
 4. **Delete a Link:**
     * Click the "Delete Link" button.
     * The app will provide a way to select the link to delete (e.g., by clicking the link in the grid).
     * Confirm the deletion if necessary.
 5. **Change the Page Title:**
-    * Click the "Change Title" button.
+    * Click the "Page Title" button.
     * In the dialog, enter the new desired title and click "OK".
-6. **Add a New Page:** Click the "Add Page" button. A new empty page will be created and displayed.
-7. **Delete the Current Page:** Click the "Delete Page" button. Confirm the deletion if prompted.
+6. **Add a New Page:** Click the "New Page" button. A new empty page will be created and displayed.
+7. **Delete the Current Page:** Click the "Del. Current Page" button. Confirm the deletion if prompted.
 8. **Navigate Between Pages:** Use the "< Previous" and "> Next" buttons to switch between your link pages.
 
 ## File Structure (Example)
@@ -68,7 +68,7 @@
 ```
 QuickLink/
 ├── quicklink.py         # Main application script
-├── database.db          # SQLite database file
+├── quicklink.db         # SQLite database file
 ├── assets/              # Folder to store default images (optional)
 └── README.md
 ```
