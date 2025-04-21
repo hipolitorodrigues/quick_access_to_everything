@@ -35,6 +35,12 @@
 * **Persistent Data:** All your links, associated images, and page titles are stored persistently in a local SQLite database. This ensures your data is saved even after closing and reopening the app.
 * **Asset Folder Icons:** Example icons were downloaded from [svgrepo.com](https://www.svgrepo.com/).
 
+## Make your own icons
+
+* **"assets\make-your-own-icons.svg"** is the svg file used to create the images. Use this if you want a starting point for creating your own icons.
+
+![alt text](https://github.com/hipolitorodrigues/assets-for-github/blob/f8c9163576758f2755398a11c37da2d4cc21b373/images/01/img-quick_link.png-02.png)
+
 ## Technologies Used
 
 * **Python:** The main programming language.

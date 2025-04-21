@@ -35,6 +35,12 @@ O QuickLink é uma aplicação desktop desenvolvida em Python utilizando Tkinter
 * **Persistência de Dados:** Todos os seus links, imagens associadas e títulos de páginas são armazenados de forma persistente em um banco de dados SQLite local. Isso garante que seus dados sejam salvos mesmo após fechar e reabrir a aplicação.
 * **Ícones da pasta assets:** Os ícones de exemplo foram baixados do site https://www.svgrepo.com/.
 
+## Faça seus próprios ícones
+
+* **"assets\make-your-own-icons.svg"** é o arquivo svg usado para criar as imagens. Use-o se quiser um ponto de partida para criar seus próprios ícones.
+
+![alt text](https://github.com/hipolitorodrigues/assets-for-github/blob/f8c9163576758f2755398a11c37da2d4cc21b373/images/01/img-quick_link.png-02.png)
+
 ## Tecnologias Utilizadas
 
 * **Python:** A linguagem de programação principal.
