@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="450.58371mm"
+   height="331.85892mm"
+   viewBox="0 0 450.5837 331.85891"
    version="1.1"
    id="svg1"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="make-your-own-icon.svg"
+   sodipodi:docname="make-your-own-icons.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,15 +24,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.65477693"
-     inkscape:cx="753.69179"
-     inkscape:cy="558.20537"
+     inkscape:zoom="0.46299721"
+     inkscape:cx="772.14289"
+     inkscape:cy="776.46257"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="450.58371"
+       height="331.85892"
+       id="page1"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
   <defs
      id="defs1">
     <linearGradient
@@ -151,7 +160,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,69.146385)">
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.98956;stroke-linecap:round;stroke-linejoin:round"
        id="rect640"
@@ -569,17 +579,17 @@
            id="g433"
            transform="translate(-9.3275371,-7.4261701)">
           <polygon
-             points="240,160 240,80 272,80 272,64 192,64 192,80 224,80 224,160 "
+             points="224,80 224,160 240,160 240,80 272,80 272,64 192,64 192,80 "
              id="polygon421"
              transform="matrix(0.04164569,0,0,0.04164569,511.17422,-78.890028)"
              style="fill:#000000;fill-opacity:1" />
           <polygon
-             points="432,160 432,80 464,80 464,64 384,64 384,80 416,80 416,160 "
+             points="416,80 416,160 432,160 432,80 464,80 464,64 384,64 384,80 "
              id="polygon422"
              transform="matrix(0.04164569,0,0,0.04164569,511.17422,-78.890028)"
              style="fill:#000000;fill-opacity:1" />
           <polygon
-             points="288,149.192 288,160 304,160 304,154.808 328,124.808 352,154.808 352,160 368,160 368,149.192 338.24,112 368,74.808 368,64 352,64 352,69.192 328,99.192 304,69.192 304,64 288,64 288,74.808 317.76,112 "
+             points="352,160 368,160 368,149.192 338.24,112 368,74.808 368,64 352,64 352,69.192 328,99.192 304,69.192 304,64 288,64 288,74.808 317.76,112 288,149.192 288,160 304,160 304,154.808 328,124.808 352,154.808 "
              id="polygon423"
              transform="matrix(0.04164569,0,0,0.04164569,511.17422,-78.890028)"
              style="fill:#000000;fill-opacity:1" />
@@ -751,17 +761,17 @@
            id="g448"
            transform="translate(-9.3275371,-7.4261701)">
           <polygon
-             points="192,80 224,80 224,160 240,160 240,80 272,80 272,64 192,64 "
+             points="272,64 192,64 192,80 224,80 224,160 240,160 240,80 272,80 "
              id="polygon446"
              transform="matrix(0.04164569,0,0,0.04164569,511.17422,-78.890028)"
              style="fill:#000000;fill-opacity:1" />
           <polygon
-             points="384,80 416,80 416,160 432,160 432,80 464,80 464,64 384,64 "
+             points="464,64 384,64 384,80 416,80 416,160 432,160 432,80 464,80 "
              id="polygon447"
              transform="matrix(0.04164569,0,0,0.04164569,511.17422,-78.890028)"
              style="fill:#000000;fill-opacity:1" />
           <polygon
-             points="352,154.808 352,160 368,160 368,149.192 338.24,112 368,74.808 368,64 352,64 352,69.192 328,99.192 304,69.192 304,64 288,64 288,74.808 317.76,112 288,149.192 288,160 304,160 304,154.808 328,124.808 "
+             points="368,64 352,64 352,69.192 328,99.192 304,69.192 304,64 288,64 288,74.808 317.76,112 288,149.192 288,160 304,160 304,154.808 328,124.808 352,154.808 352,160 368,160 368,149.192 338.24,112 368,74.808 "
              id="polygon448"
              transform="matrix(0.04164569,0,0,0.04164569,511.17422,-78.890028)"
              style="fill:#000000;fill-opacity:1" />
@@ -2534,13 +2544,13 @@
                  height="16"
                  id="rect4-7" />
               <polygon
-                 points="192,64 192,80 224,80 224,160 240,160 240,80 272,80 272,64 "
+                 points="272,80 272,64 192,64 192,80 224,80 224,160 240,160 240,80 "
                  id="polygon4-5" />
               <polygon
-                 points="384,64 384,80 416,80 416,160 432,160 432,80 464,80 464,64 "
+                 points="464,80 464,64 384,64 384,80 416,80 416,160 432,160 432,80 "
                  id="polygon5-1" />
               <polygon
-                 points="328,124.808 352,154.808 352,160 368,160 368,149.192 338.24,112 368,74.808 368,64 352,64 352,69.192 328,99.192 304,69.192 304,64 288,64 288,74.808 317.76,112 288,149.192 288,160 304,160 304,154.808 "
+                 points="368,74.808 368,64 352,64 352,69.192 328,99.192 304,69.192 304,64 288,64 288,74.808 317.76,112 288,149.192 288,160 304,160 304,154.808 328,124.808 352,154.808 352,160 368,160 368,149.192 338.24,112 "
                  id="polygon6" />
               <rect
                  x="120"

@@ -12,7 +12,7 @@ class QuickLink:
     def __init__(self, root):
         self.root = root
         self.root.title("QuickLink - Quick Access to Everything")
-        self.root.geometry("900x700")
+        self.root.geometry("1100x700")
         
         # Initialize database
         self.setup_database()
@@ -84,40 +84,35 @@ class QuickLink:
         # Main frame
         self.main_frame = ttk.Frame(self.root, padding=10)
         self.main_frame.pack(fill=BOTH, expand=YES)
-        
-        # === ROW 1: TOP BUTTONS ===
-        self.top_buttons_frame = ttk.Frame(self.main_frame)
-        self.top_buttons_frame.pack(fill=X, pady=(0, 15))
-        
-        # Buttons on the left
-        self.left_buttons_frame = ttk.Frame(self.top_buttons_frame)
-        self.left_buttons_frame.pack(side=LEFT)
-        
-        self.add_link_btn = ttk.Button(self.left_buttons_frame, text="New Link", 
-                                     command=self.add_link, bootstyle="success", width=15)
-        self.add_link_btn.pack(side=LEFT, padx=5)
-        
-        self.del_link_btn = ttk.Button(self.left_buttons_frame, text="Delete Link", 
-                                     command=self.delete_link, bootstyle="danger", width=12)
-        self.del_link_btn.pack(side=LEFT, padx=5)
-        
-        # Center spacer
-        ttk.Frame(self.top_buttons_frame).pack(side=LEFT, expand=YES)
-        
-        # Buttons on the right
-        self.right_buttons_frame = ttk.Frame(self.top_buttons_frame)
-        self.right_buttons_frame.pack(side=RIGHT)
 
-        self.change_title_btn = ttk.Button(self.right_buttons_frame, text="Page Title", 
-                                         command=self.change_page_title, bootstyle="info", width=18)
+        # === ROW 1: CENTERED BUTTONS ===
+        self.buttons_frame = ttk.Frame(self.main_frame)
+        self.buttons_frame.pack(pady=(0, 15))  # Without fill=X, so as not to expand to the full width
+
+        # Centered buttons
+        self.add_link_btn = ttk.Button(
+            self.buttons_frame, text="New Link", command=self.add_link, bootstyle="success", width=15
+        )
+        self.add_link_btn.pack(side=LEFT, padx=5)
+
+        self.del_link_btn = ttk.Button(
+            self.buttons_frame, text="Delete Link", command=self.delete_link, bootstyle="danger", width=12
+        )
+        self.del_link_btn.pack(side=LEFT, padx=5)
+
+        self.change_title_btn = ttk.Button(
+            self.buttons_frame, text="Page Title", command=self.change_page_title, bootstyle="info", width=18
+        )
         self.change_title_btn.pack(side=LEFT, padx=5)
-        
-        self.add_page_btn = ttk.Button(self.right_buttons_frame, text="New Page", 
-                                      command=self.add_page, bootstyle="success", width=18)
+
+        self.add_page_btn = ttk.Button(
+            self.buttons_frame, text="New Page", command=self.add_page, bootstyle="success", width=18
+        )
         self.add_page_btn.pack(side=LEFT, padx=5)
-        
-        self.del_page_btn = ttk.Button(self.right_buttons_frame, text="Del. Current Page", 
-                                      command=self.delete_page, bootstyle="danger", width=15)
+
+        self.del_page_btn = ttk.Button(
+            self.buttons_frame, text="Del. Current Page", command=self.delete_page, bootstyle="danger", width=15
+        )
         self.del_page_btn.pack(side=LEFT, padx=5)
         
         # === LINE 2: PAGE TITLE ===
@@ -528,7 +523,7 @@ def main():
         import subprocess
         subprocess.call(['pip', 'install', 'ttkbootstrap', 'pillow'])
     
-    root = ttk.Window(themename="cosmo")
+    root = ttk.Window(themename="journal")
     app = QuickLink(root)
     root.protocol("WM_DELETE_WINDOW", app.on_close)
     root.mainloop()

@@ -4,7 +4,7 @@
 
 **QuickLink** is a desktop application developed in Python using Tkinter with the `ttkbootstrap` theme and an SQLite database. Its main goal is to provide a fast and organized way to store and access your favorite websites and archives. With an intuitive interface, you can add links, associate images for easy visual identification, and organize your links across multiple pages.
 
-![alt text](https://github.com/hipolitorodrigues/assets-for-github/blob/05d201a5a206537660018d2a967edd880216b5ea/images/01/img-quick_link.png)
+![alt text](https://github.com/hipolitorodrigues/assets-for-github/blob/d85d0454f48ea999edf51fae8b60d1c60cccbb5e/images/01/img-quick_link.png-03.png)
 
 ## Key Features
 
@@ -83,8 +83,8 @@ QuickLink/
 
 - **Developer**: Hipolito Rodrigues  
 - **Creation Date**: 04/14/2025  
-- **Last Update**: 04/15/2025  
-- **Current Version**: 1.2
+- **Last Update**: 04/26/2025  
+- **Current Version**: 1.3
 
 ---
 
